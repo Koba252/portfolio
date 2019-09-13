@@ -1,0 +1,40 @@
+/* 初期化 */
+body, header, main, footer, section, div, nav, p, a, h1, h2, h3, h4, ul, ol, li, form, input, span{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  font-size: 62.5%;
+}
+a, a:visited, a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+main{
+  display: block;
+}
+ul, ol{
+  list-style: none;
+}
+
+html, body{
+  height: 100%;
+}
+
+/* 共通 */
+nav{
+  height: 100%;
+}
+
+/* index.html */
+.main-top{
+  width: 100%;
+  display: flex;
+}
+.content-top{
+  display: block;
+}
+.contents{
+  height: 100%;
+}
