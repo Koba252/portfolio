@@ -47,11 +47,14 @@ nav:after {
   content: "";
   display: block;
   position: absolute;
-  width: 15px;
+  width: 0px;
   height: 45px;
   top: 0px;
   left: 300px;
-  background-color: #000000;
+  border-left: 15px solid #000000;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 }
 @media (min-width: 481px) {
   nav{
