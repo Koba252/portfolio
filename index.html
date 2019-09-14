@@ -26,29 +26,29 @@
     <nav id="menu">
       <ul>
         <a href="./index.html"><li>HOME</li></a>
-        <a><li>Word Hit Blow</li></a>
-        <a><li>各種デザイン</li></a>
-        <a><li>スタンプカードアプリ</li></a>
+        <a href="./html/page1.html"><li>Word Hit Blow</li></a>
+        <a href="./html/page2.html"><li>各種デザイン</li></a>
+        <a href="./html/page3.html"><li>スタンプカードアプリ</li></a>
       </ul>
     </nav>
 
     <div class="content-top">
-      <div class="contents" data-section-name="section1">
+      <div class="contents" data-section-name="section0">
         <h2>Mi's Portfolio Site</h2>
         <p>Twitter, Qiita, Github</p>
       </div>
       
-      <div class="contents" data-section-name="section2">
+      <div class="contents" data-section-name="section1">
         <h2>Word Hit Blow</h2>
         <p>英単語を推測するブラウザゲーム</p>
       </div>
 
-      <div class="contents" data-section-name="section3">
+      <div class="contents" data-section-name="section2">
         <h2>デザイン集</h2>
         <p>ビラやTシャツのデザインアーカイブ</p>
       </div>
 
-      <div class="contents" data-section-name="section4">
+      <div class="contents" data-section-name="section3">
         <h2>スタンプカードアプリ</h2>
         <p>作成中だよ</p>
       </div>
@@ -61,7 +61,7 @@
     $(function() {
       $('#menu').hover(
         function() {
-          $(this).animate({'marginLeft': '290px'}, 500);
+          $(this).animate({'marginLeft': '300px'}, 500);
         },
         function() {
           $(this).animate({'marginLeft': '0'}, 500);

@@ -18,20 +18,40 @@ ul, ol{
   list-style: none;
 }
 
+/* 共通 */
 html, body{
   height: 100%;
 }
 
-/* 共通 */
+/* メニュー */
 nav{
   height: 100%;
   background-color: #000000;
   color: #FFFFFF;
   position: fixed;
-  left: -290px;
+  left: -300px;
 }
-nav a, nav li{
+nav li{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
   color: #FFFFFF;
+  font-size: 1.6em;
+}
+nav li:hover{
+  background-color: #FFFFFF;
+  color: #000000;
+  transition: .4s;
+}
+nav:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 45px;
+  top: 0px;
+  left: 300px;
+  background-color: #000000;
 }
 @media (min-width: 481px) {
   nav{
