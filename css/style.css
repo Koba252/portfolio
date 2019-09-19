@@ -31,13 +31,14 @@ main{
 /* メニュー */
 nav{
   height: 100%;
+  width: 300px;
   background-color: #000000;
   color: #FFFFFF;
   position: fixed;
   left: -300px;
 }
 nav li{
-  width: 100%;
+  width: 275px;
   margin: 0 auto;
   padding: 10px;
   color: #FFFFFF;
@@ -61,16 +62,6 @@ nav:after {
   border-right: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
-@media (min-width: 481px) {
-  nav{
-    width: 300px;
-  }
-}
-@media (max-width: 480px) {
-  nav{
-    width: 50%;
-  }
-}
 
 /* index.html */
 .main-top{
@@ -86,24 +77,37 @@ nav:after {
   width: 100%;
 }
 .content0{
-  display: flex;
+  background-image: url(../img/bg01.JPG);
+  background-size: cover;
 }
 .content0 div:nth-child(1) {
-  width: 90%;
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
-.content0 div:nth-child(1) img{
-  width: auto;
-  height: 90%;
+.content0 div:nth-child(1) p{
+  font-size: 24em;
+  text-align: center;
+  font-family: 'MS serif', 'Times New Roman', Georgia, 'Palatino Linotype', serif;
 }
 .content0 div:nth-child(2) {
-  width: 10%;
+  width: 64px;
   position: absolute;
-  bottom: 10%;
+  bottom: 10px;
   right: 10px;
 }
 .content0 div:nth-child(2) img{
-  display: block;
   width: 64px;
   height: 64px;
+}
+
+.content3{
+  text-align: center;
+  background-color: #DDDDDD;
+}
+.content3 p{
+  font-size: 3em;
+  padding-top: 50px;
+}
+.content3 img{
+  width: 50%;
 }
