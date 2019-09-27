@@ -9,7 +9,9 @@ body {
 }
 a, a:visited, a:hover{
   text-decoration: none;
-  color: #000000;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
 }
 main{
   display: block;
@@ -77,31 +79,12 @@ nav:after {
   height: 100%;
   width: 100%;
 }
-/* .content0{
-  background-image: url(../img/bg01.JPG);
-  background-size: cover;
-}
-.content0 div:nth-child(1) {
-  width: 100%;
-  height: 100%;
-}
-.content0 div:nth-child(1) p{
-  font-size: 24em;
-  text-align: center;
-  font-family: 'MS serif', 'Times New Roman', Georgia, 'Palatino Linotype', serif;
-}
-.content0 div:nth-child(2) {
-  width: 64px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-.content0 div:nth-child(2) img{
-  width: 64px;
-  height: 64px;
-} */
+  /* content0 */
 .content0{
   background-color: #E1E7EB;
+  font-size: 1.7em;
+  color: #4E0E2E;
+  font-family: serif;
 }
 .box0, .box1{
   height: 67%;
@@ -111,18 +94,23 @@ nav:after {
   position: absolute;
   top: 0;
   left: 0;
-  border-right: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid inherit;
+  border-bottom: 1px solid inherit;
   background-color: #947B89;
 }
 .box1{
   position: absolute;
   right: 0;
   bottom: 0;
-  border-left: 1px solid #FFFFFF;
-  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid inherit;
+  border-top: 1px solid inherit;
   border-radius: 60px 0 0 0;
   background-color: #AEB8C3;
+}
+.box1 ul{
+  position: inherit;
+  bottom: 0;
+  padding: 5px;
 }
 .box2{
   height: 34%;
@@ -130,13 +118,45 @@ nav:after {
   position: absolute;
   top: 33%;
   left: 33%;
-  background-color: #E1E7EB;
-  border-right: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  background-color: inherit;
+  border-right: 1px solid inherit;
+  border-bottom: 1px solid inherit;
   border-radius: 60px 0 60px 0;
-  box-shadow: -1px -1px 0 1px #FFFFFF;
+  box-shadow: -1px -1px 0 1px inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
 }
-
+.box3{
+  height: 33%;
+  width: 33%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: inherit;
+}
+.box3 ul{
+  position: inherit;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  text-align: right;
+}
+  /* content1 */
+.content1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  /* content2 */
+.content2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  /* content3 */
 .content3{
   text-align: center;
   background-color: #DDDDDD;
