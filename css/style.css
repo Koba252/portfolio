@@ -81,9 +81,9 @@ nav:after {
 }
   /* content0 */
 .content0{
-  background-color: #E1E7EB;
+  /* background-color: #E1E7EB; */
   font-size: 1.7em;
-  color: #4E0E2E;
+  /* color: #4E0E2E; */
   font-family: 'Times New Roman', Georgia, 'Sylfaen', 'Palatino Linotype', 'MS serif', serif;
 }
 .box0, .box1{
@@ -96,7 +96,7 @@ nav:after {
   left: 0;
   border-right: 1px solid inherit;
   border-bottom: 1px solid inherit;
-  background-color: #947B89;
+  /* background-color: #947B89; */
 }
 .box1{
   position: absolute;
@@ -105,7 +105,7 @@ nav:after {
   border-left: 1px solid inherit;
   border-top: 1px solid inherit;
   border-radius: 60px 0 0 0;
-  background-color: #AEB8C3;
+  /* background-color: #AEB8C3; */
 }
 .box1 ul{
   position: inherit;
@@ -156,6 +156,50 @@ nav:after {
   right: 0;
   padding: 5px;
   text-align: right;
+}
+    /* 色変更 */
+.content0Color0, .box0Color0, .box1Color0, .content0Color1, .box0Color1, .box1Color1, .content0Color2, .box0Color2, .box1Color2, .content0Color3, .box0Color3, .box1Color3{
+  transition: .5s;
+}
+.content0Color0{
+  color: #4E0E2E;
+  background-color: #E1E7EB;
+}
+.box0Color0{
+  background-color: #947B89;
+}
+.box1Color0{
+  background-color: #AEB8C3;
+}
+.content0Color1{
+  color: #9dd3a8;
+  background-color: #f4f0e6;
+}
+.box0Color1{
+  background-color: #d9d9f3;
+}
+.box1Color1{
+  background-color: #ceefe4;
+}
+.content0Color2{
+  color: #0000A1;
+  background-color: #B9EDF8;
+}
+.box0Color2{
+  background-color: #1F6ED4;
+}
+.box1Color2{
+  background-color: #39BAE8;
+}
+.content0Color3{
+  color: #e94e66;
+  background-color: #e7acb9;
+}
+.box0Color3{
+  background-color: #f09199;
+}
+.box1Color3{
+  background-color: #f5b090;
 }
   /* content1 */
 .content1{
