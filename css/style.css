@@ -225,13 +225,7 @@ nav:after {
 }
   /* content3 */
 .content3{
-  text-align: center;
-  background-color: #DDDDDD;
-}
-.content3 p{
-  font-size: 3em;
-  padding-top: 50px;
-}
-.content3 img{
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
