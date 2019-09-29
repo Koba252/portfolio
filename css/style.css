@@ -211,6 +211,10 @@ nav:after {
 .box1Color4{
   background-color: #cea85e;
 }
+    /* @マーク */
+.mark1::before{
+  content: '@';
+}
   /* content1 */
 .content1{
   display: flex;
