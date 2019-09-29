@@ -136,7 +136,7 @@ nav:after {
   75% {transform: translateY(-10px)}
   100% {transform: translateY(0)}
 }
-.box2 div:hover{
+.box2 div{
   animation: flutty1 1s ease;
 }
 .box2 div:hover{
