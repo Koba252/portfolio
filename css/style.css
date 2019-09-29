@@ -119,15 +119,28 @@ nav:after {
   top: 33%;
   left: 33%;
   background-color: inherit;
-  border-right: 1px solid inherit;
-  border-bottom: 1px solid inherit;
+  /* border-right: 1px solid inherit;
+  border-bottom: 1px solid inherit; */
   border-radius: 60px 0 60px 0;
-  box-shadow: -1px -1px 0 1px inherit;
+  /* box-shadow: -1px -1px 0 1px inherit; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3em;
   font-weight: bold;
+}
+@keyframes flutty1{
+  0% {transform: translateY(0)}
+  25% {transform: translateY(-10px)}
+  50% {transform: translateY(0)}
+  75% {transform: translateY(-10px)}
+  100% {transform: translateY(0)}
+}
+.box2 div:hover{
+  animation: flutty1 1s ease;
+}
+.box2 div:hover{
+  cursor: pointer;
 }
 .box3{
   height: 33%;
